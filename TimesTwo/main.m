@@ -11,6 +11,10 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
+        
+        NSDate * currentTime = nil;
+        NSLog(@"\ncurrentTime's value is %p", currentTime);
+        
         NSLog(@"Hello, World!");
     }
     return 0;
